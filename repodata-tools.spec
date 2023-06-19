@@ -12,6 +12,8 @@ BuildRequires: cmake ninja
 BuildRequires: cmake(Qt6)
 BuildRequires: cmake(Qt6Core)
 BuildRequires: cmake(Qt6Xml)
+BuildRequires: pkgconfig(libarchive)
+BuildRequires: pkgconfig(rpm)
 
 %description
 Tools for working with rpm repomd data
