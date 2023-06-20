@@ -2,7 +2,7 @@
 
 Name: repodata-tools
 Version: 0.0.1
-Release: %{?date:0.%{date}.}1
+Release: %{?date:0.%{date}.}2
 Source0: https://github.com/OpenMandrivaSoftware/repodata-tools/archive/refs/heads/master.tar.gz#/%{name}-%{date}.tar.gz
 Summary: Tools for working with rpm repomd data
 URL: https://github.com/OpenMandrivaSoftware/repodata-tools
