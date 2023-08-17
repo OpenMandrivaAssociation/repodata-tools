@@ -1,4 +1,4 @@
-%define date 20230817
+%define date 20230818
 
 Name: repodata-tools
 Version: 0.0.1
