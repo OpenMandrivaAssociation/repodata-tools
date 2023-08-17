@@ -11,6 +11,7 @@ Group: System/Configuration/Packaging
 BuildRequires: cmake ninja
 BuildRequires: cmake(Qt6)
 BuildRequires: cmake(Qt6Core)
+BuildRequires: cmake(Qt6DBus)
 BuildRequires: cmake(Qt6Gui)
 BuildRequires: cmake(Qt6Xml)
 BuildRequires: pkgconfig(libarchive)
