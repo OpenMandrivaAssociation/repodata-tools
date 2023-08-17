@@ -16,6 +16,9 @@ BuildRequires: cmake(Qt6Gui)
 BuildRequires: cmake(Qt6Xml)
 BuildRequires: pkgconfig(libarchive)
 BuildRequires: pkgconfig(rpm)
+# For the SVG image format plugin, so we can convert
+# SVG to PNG when generating appstream metadata
+Requires: %mklibname Qt6Svg
 
 %description
 Tools for working with rpm repomd data
