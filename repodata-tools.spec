@@ -1,8 +1,8 @@
-%define date 20230818
+%define date 20230913
 
 Name: repodata-tools
 Version: 0.0.1
-Release: %{?date:0.%{date}.}2
+Release: %{?date:0.%{date}.}1
 Source0: https://github.com/OpenMandrivaSoftware/repodata-tools/archive/refs/heads/master.tar.gz#/%{name}-%{date}.tar.gz
 Summary: Tools for working with rpm repomd data
 URL: https://github.com/OpenMandrivaSoftware/repodata-tools
@@ -32,6 +32,8 @@ Tools for working with rpm repomd data
 
 %install
 %ninja_install -C build
+# The non-perfile version is only for reference and may be removed altogether
+mv -f %{buildroot}%{_bindir}/createmd-perfile  %{buildroot}%{_bindir}/createmd
 
 %files
 %{_bindir}/createmd
