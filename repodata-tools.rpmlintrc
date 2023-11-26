@@ -1,0 +1,4 @@
+from Config import *
+# This is fine because we need libQt6Svg for the qimageformat
+# plugin that comes with it - not for the library itself
+addFilter("E: explicit-lib-dependency")

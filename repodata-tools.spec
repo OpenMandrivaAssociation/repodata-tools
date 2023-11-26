@@ -2,8 +2,9 @@
 
 Name: repodata-tools
 Version: 0.0.1
-Release: %{?date:0.%{date}.}2
+Release: %{?date:0.%{date}.}3
 Source0: https://github.com/OpenMandrivaSoftware/repodata-tools/archive/refs/heads/master.tar.gz#/%{name}-%{date}.tar.gz
+Source1: %{name}.rpmlintrc
 Summary: Tools for working with rpm repomd data
 URL: https://github.com/OpenMandrivaSoftware/repodata-tools
 License: AGPL-3.0+
